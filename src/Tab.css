@@ -1,0 +1,88 @@
+@media screen and (max-width: 1024px) {
+  #Container {
+    width: 750px !important;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  nav {
+    padding: 5px 10px;
+  }
+  #NavLinks {
+    margin: 0px 40px;
+  }
+  #NavLinks li {
+    margin: 0px 9px !important;
+  }
+  #HeaderDesc {
+    text-align: center;
+  }
+  #HeaderDesc p {
+    text-shadow: 1px 1px 1px black;
+  }
+  #AboutCOntentWrapper #AboutDesc {
+    width: 450px !important;
+  }
+  #AboutCOntentWrapper #AboutImage {
+    width: 300px !important;
+  }
+  #Desc {
+    width: 75% !important;
+    text-align: justify;
+  }
+  #AboutTable {
+    width: 20% !important;
+  }
+  #SingleSkillsInPage {
+    width: 365px !important;
+  }
+  #InputFields {
+    width: 85% !important;
+  }
+  select {
+    width: 30% !important;
+  }
+  #Subscribe #InputField {
+    width: 50vw !important;
+  }
+  #Subscribe #SubsButton {
+    width: 40% !important;
+  }
+  #SingleBlog {
+    width: 49% !important;
+  }
+  #SingleBlog img {
+    height: auto !important;
+  }
+  #SingleShortProjectDesc h2 {
+    font-size: 1.4rem !important;
+  }
+  #SingleShortProjectDesc p {
+    font-size: 1rem !important;
+    width: 100% !important;
+  }
+  #ProjectDesc h2 {
+    font-size: 1.4rem !important;
+  }
+  #ProjectDesc p {
+    font-size: 1rem !important;
+    width: 100% !important;
+  }
+  #FaqImg {
+    width: 40% !important;
+    margin: auto;
+  }
+  #FaqContent {
+    width: 60% !important;
+  }
+  #FaqContent #SingleFaq {
+    width: 100% !important;
+  }
+  #SingleReview {
+    width: 45% !important;
+  }
+}
+/*# sourceMappingURL=Tab.css.map */

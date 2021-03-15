@@ -1,0 +1,392 @@
+@media screen and (max-width: 768px) {
+  #Container {
+    width: 90% !important;
+  }
+  * {
+    cursor: default !important;
+  }
+  a,
+  button {
+    cursor: default !important;
+  }
+  .active {
+    padding-bottom: 2px;
+    border: none;
+    color: cyan !important;
+  }
+  .singleSliderItem {
+    width: 90% !important;
+  }
+  header {
+    background: -webkit-gradient(linear, left top, right top, from(#000000), to(#00000063)), url(./Components/img/beach.jpeg);
+    background: linear-gradient(to right, #000000, #00000063), url(./Components/img/beach.jpeg);
+    background-size: cover !important;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -5px;
+    width: 50%;
+    height: 60%;
+    padding: 5px 0px 20px 0px;
+    background: linear-gradient(45deg, cyan, #0044ff);
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-transform: translate(100%);
+            transform: translate(100%);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    overflow-y: scroll;
+  }
+  nav ul li {
+    margin: 10px 0px !important;
+  }
+  nav ul li:first-child {
+    display: block !important;
+    width: 150px;
+    margin: auto;
+  }
+  nav ul li:first-child img {
+    width: 100%;
+  }
+  nav #Burger {
+    display: block !important;
+    z-index: 10;
+    right: 0;
+  }
+  nav #Burger div {
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 5px 0px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .nav-active {
+    -webkit-transform: translate(0) !important;
+            transform: translate(0) !important;
+  }
+  #AboutCOntentWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  #AboutCOntentWrapper #AboutDesc {
+    width: 95% !important;
+  }
+  #AboutCOntentWrapper #AboutImage {
+    width: 90% !important;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  #AboutTable {
+    display: none !important;
+  }
+  #Desc {
+    text-align: left !important;
+    width: 100% !important;
+  }
+  #AboutPageImage {
+    width: 90% !important;
+  }
+  #SingleShortService {
+    width: 450px !important;
+  }
+  #SingleService {
+    width: 450px !important;
+  }
+  #SectionTitle p {
+    width: 100% !important;
+  }
+  #SingleSkill {
+    width: 18% !important;
+    padding: 10px 10px !important;
+  }
+  #Top {
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+  }
+  #SingleSkillsInPage {
+    width: 500px !important;
+    margin: 10px auto !important;
+  }
+  #InputFields {
+    width: 100% !important;
+  }
+  #InputFields input,
+  #InputFields textarea,
+  #InputFields button {
+    font-size: 1.1rem !important;
+  }
+  #NavButton {
+    cursor: default !important;
+  }
+  select {
+    width: 45% !important;
+  }
+  #Subscribe #InputField {
+    width: 50vw !important;
+  }
+  #Subscribe #SubsButton {
+    width: 150px !important;
+  }
+  #SingleReview {
+    width: 70% !important;
+    margin: 15px auto !important;
+  }
+  #BlogDesc {
+    padding: 10px !important;
+  }
+  #BlogDesc p {
+    width: 100% !important;
+  }
+  #BlogDesc h2 {
+    font-size: 1.4rem !important;
+  }
+  #BlogDesc a {
+    font-size: 1rem !important;
+  }
+  #SingleBlog img {
+    height: 16rem !important;
+  }
+  #SingleBlog:last-child img {
+    height: auto !important;
+  }
+  #ReviewContentWrapper {
+    padding: 20px 0px !important;
+  }
+  #ProjectContentWrapper {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+  }
+  #ProjectContentWrapper #SingleProject img {
+    height: auto !important;
+  }
+  #ProjectContentWrapper #SingleProject #ProjectDesc p {
+    width: 100% !important;
+  }
+  #SingleShortProject {
+    width: 100% !important;
+  }
+  #SingleShortProject img {
+    height: auto !important;
+  }
+  #SingleShortProject #SingleShortProjectDesc p {
+    width: 100% !important;
+  }
+  #SingleBlog {
+    width: 70% !important;
+  }
+  #SingleBlog img {
+    height: auto !important;
+  }
+  #LoaderImg {
+    width: 50% !important;
+  }
+  #LoaderImg img {
+    width: 100% !important;
+  }
+  kbd {
+    font-size: 1rem !important;
+    margin: 5px !important;
+  }
+  #LoaderContent h2 {
+    font-size: 1.2rem !important;
+    margin: 10px 0px !important;
+  }
+  #ErrorImg {
+    width: 90% !important;
+  }
+  #FaqContentWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #FaqContentWrapper #FaqImg {
+    width: 90% !important;
+    margin: auto;
+  }
+  #FaqContentWrapper #FaqContent {
+    width: 100% !important;
+  }
+  #FaqContentWrapper #FaqContent #SingleFaq {
+    width: 100% !important;
+  }
+  #AfterText {
+    font-size: 1.7rem !important;
+  }
+  #AfterText p {
+    font-size: 1.2rem !important;
+  }
+  #AfterText button {
+    font-size: 1.1rem !important;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  h1 {
+    font-size: 2.5rem !important;
+  }
+  #SingleSkillsInPage {
+    width: 100% !important;
+  }
+  select {
+    width: 60% !important;
+  }
+}
+
+@media screen and (max-width: 748px) {
+  #ProjectContentWrapper {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  #ProjectContentWrapper #SingleProject {
+    width: 100% !important;
+  }
+  #ProjectContentWrapper #SingleProject h2 {
+    font-size: 1.8rem !important;
+  }
+  #ProjectContentWrapper #SingleProject p {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #ProjectContentWrapper {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  #ProjectContentWrapper #SingleProject {
+    width: 100% !important;
+  }
+  #ProjectContentWrapper #SingleProject h2 {
+    font-size: 1.5rem !important;
+  }
+  #ProjectContentWrapper #SingleProject p {
+    font-size: 1.1rem !important;
+    width: 100% !important;
+  }
+  select {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 296px) {
+  #SingleSkill {
+    width: 30% !important;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  #SingleSkillsInPage {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  #SkllImg {
+    margin-bottom: 10px !important;
+  }
+  #SkillDesc p {
+    width: 100% !important;
+  }
+  select {
+    width: 100% !important;
+  }
+  #SingleProject img {
+    height: auto !important;
+  }
+  #SingleProject #ProjectDesc p {
+    width: 100% !important;
+    font-size: 1rem !important;
+  }
+  #SingleProject #ProjectDesc h2 {
+    font-size: 1.5rem !important;
+  }
+  #SingleReview {
+    width: 95% !important;
+  }
+  #SubscribeTitle {
+    font-size: 1.7rem !important;
+  }
+  #InputField input {
+    font-size: 1rem !important;
+  }
+  nav ul li:first-child {
+    width: 80px !important;
+  }
+}
+
+@media screen and (max-width: 598px) {
+  #SingleReview {
+    width: 100% !important;
+    padding: 30px 7px !important;
+    margin: 15px auto !important;
+  }
+  #HomeMe {
+    bottom: 0% !important;
+    margin: 20px 0px;
+  }
+  #HomeMe #HomeMenu {
+    padding: 5px 50px !important;
+    margin-top: 5px !important;
+  }
+  #Subscribe #InputField {
+    width: 80vw !important;
+  }
+  #Subscribe #SubsButton {
+    width: 150px !important;
+  }
+  #SingleShortProjectDesc p {
+    width: 100% !important;
+    font-size: 1rem !important;
+  }
+  #SingleShortProjectDesc h2 {
+    font-size: 1.5rem !important;
+  }
+  #SingleBlog {
+    width: 95% !important;
+  }
+  #SingleBlog img {
+    height: auto !important;
+  }
+  #AboutDesc {
+    width: 100% !important;
+  }
+  #AboutDesc h2 {
+    font-size: 1.4rem !important;
+  }
+  #HeaderDesc h1 {
+    font-size: 2rem !important;
+  }
+  #HeaderDesc p {
+    font-size: 1.5rem !important;
+  }
+  #HeaderDesc h3 {
+    font-size: 1rem !important;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
