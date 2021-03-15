@@ -88,7 +88,7 @@ const Home = () => {
                 <span className="wrap">Olá, Meu nome é Álex.</span>
               </h3>
               <Button variant="contained" color="secondary" type="button" href="http://bit.ly/JoubertProfile" target="_blank">
-                Curriculo
+                Currículo
                 </Button>
             </div>
           </div>
