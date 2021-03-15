@@ -1,4 +1,4 @@
-import Portfolio from './img/Portfolio.png'
+import Portfolio from './img/Portfolio.jpg'
 import MeuDinDin from './img/meudindin.png'
 import Doclist from './img/doclist.png'
 

@@ -21,7 +21,7 @@ const Subscribe = () => {
     })
   }
   const ShowData = () => {
-    Swal.fire('Sent', `Thanks ${data.yourName} for Sending.`, 'success')
+    Swal.fire('Enviado', `Obrigado ${data.yourName} por enviar.`, 'success')
   }
   return (
     <>

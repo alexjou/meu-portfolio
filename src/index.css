@@ -197,8 +197,8 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(#000000e1), to(#0000000c)), url(./Components/img/background.jpeg);
-  background: linear-gradient(to right, #000000e1, #0000000c), url(./Components/img/background.jpeg);
+  background: -webkit-gradient(linear, left top, right top, from(#000000e1), to(#0000000c)), url(./Components/img/background.jpg);
+  background: linear-gradient(to right, #000000e1, #0000000c), url(./Components/img/background.jpg);
   background-size: 100% 100%;
   background-position: center;
   background-attachment: fixed;
