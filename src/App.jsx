@@ -32,7 +32,7 @@ const App = () => {
       <BrowserRouter>
         <Nav />
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/meu-portfolio/" component={Home} />
           <Route component={ErrorPage} />
         </Switch>
       </BrowserRouter>

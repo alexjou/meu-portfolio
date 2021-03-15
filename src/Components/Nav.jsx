@@ -13,7 +13,7 @@ const Nav = () => {
         {/* <div id="Container"> */}
         <div id="NavContentWrapper">
           <h2 id="NavTitle">
-            <Link to="/">Portfolio</Link>
+            <Link to="/meu-portfolio/">Portfolio</Link>
           </h2>
           <ul id="NavLink">
             <li>
