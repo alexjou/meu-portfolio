@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/meu-portfolio/static/css/main.639a92b1.chunk.css",
-    "main.js": "/meu-portfolio/static/js/main.dc466767.chunk.js",
-    "main.js.map": "/meu-portfolio/static/js/main.dc466767.chunk.js.map",
+    "main.js": "/meu-portfolio/static/js/main.27ec1311.chunk.js",
+    "main.js.map": "/meu-portfolio/static/js/main.27ec1311.chunk.js.map",
     "runtime-main.js": "/meu-portfolio/static/js/runtime-main.5e47a919.js",
     "runtime-main.js.map": "/meu-portfolio/static/js/runtime-main.5e47a919.js.map",
     "static/css/2.ae9e5f60.chunk.css": "/meu-portfolio/static/css/2.ae9e5f60.chunk.css",
@@ -39,13 +39,14 @@
     "static/media/mysql.203227b7.png": "/meu-portfolio/static/media/mysql.203227b7.png",
     "static/media/php.4ba17fd0.png": "/meu-portfolio/static/media/php.4ba17fd0.png",
     "static/media/postgresql.41d30ac9.png": "/meu-portfolio/static/media/postgresql.41d30ac9.png",
-    "static/media/rails.098cc1b5.png": "/meu-portfolio/static/media/rails.098cc1b5.png"
+    "static/media/rails.098cc1b5.png": "/meu-portfolio/static/media/rails.098cc1b5.png",
+    "static/media/web.9d41d560.gif": "/meu-portfolio/static/media/web.9d41d560.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.5e47a919.js",
     "static/css/2.ae9e5f60.chunk.css",
     "static/js/2.034007ae.chunk.js",
     "static/css/main.639a92b1.chunk.css",
-    "static/js/main.dc466767.chunk.js"
+    "static/js/main.27ec1311.chunk.js"
   ]
 }
