@@ -32,7 +32,6 @@ const useStyles = makeStyles(theme => ({
   },
   imgWeb: {
     width: '80%',
-    height: '80%',
     [theme.breakpoints.down('sm')]: {
       width: '100%',
       height: '30%',
@@ -40,11 +39,9 @@ const useStyles = makeStyles(theme => ({
   },
   imgCell: {
     width: 300, 
-    height: '100%',
     [theme.breakpoints.down('sm')]: {
-      width: '60%',
-      height: '50%',
-    }
+      width: '50%',
+      }
   },
 }));
 
