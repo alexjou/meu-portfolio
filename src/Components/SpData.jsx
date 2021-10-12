@@ -99,7 +99,7 @@ const SpData = [
     descMore: "Aplicativo desenvolvido em React Native utilizando Expo, onde clientes tem acesso a profissionais da beleza para contratar seus serviços no conforto da sua casa, podendo agendar o dia e a hora que o profissional estiver disponível, mostrando a localização dos profissionais mais perto e ao final de cada serviço, uma nota é dada para o profissinal e para o cliente..",
     link: "",
     src: Do2meclient,
-    gifWeb: Do2meclientGif,
+    gifCell: Do2meclientGif,
     animate: "fade-left",
   },  
   {
