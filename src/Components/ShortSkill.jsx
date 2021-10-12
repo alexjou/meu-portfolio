@@ -2,6 +2,9 @@ import React from 'react'
 import SskData from './SskData'
 import Title from './Title'
 
+import ReactNative from './img/React.png'
+import Firebase from './img/Firebase.png'
+
 const ShortSkill = () => {
   const SingleShortSkill = (prop) => {
     return (
@@ -23,6 +26,21 @@ const ShortSkill = () => {
             {SskData.map((data, index) => {
               return <SingleShortSkill key={index} src={data.src} />
             })}
+          </div>
+          <Title title="" desc="Linguagens que tenho mais experiência" />
+          <div id="SkillContentWrappper">
+            <div id="Bests">
+              <SingleShortSkill src={ReactNative} />
+              <text>ReactJS</text>
+            </div>
+            <div id="Bests">
+              <SingleShortSkill src={Firebase} />
+              <text>Firebase</text>
+            </div>
+            <div id="Bests">
+              <SingleShortSkill src={ReactNative} />
+              <text>React Native</text>
+            </div>
           </div>
         </div>
       </section>

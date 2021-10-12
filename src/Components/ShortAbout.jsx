@@ -10,22 +10,31 @@ const ShortAbout = () => {
         <div id="Container">
           <div id="AboutCOntentWrapper">
             <div id="AboutDesc" data-aos="fade-up">
-              <h2>Um pouco sobre mim</h2>
+              <h2> &lt; Um pouco sobre mim /&gt;</h2>
               <p>
                 Tenho {age} anos, Sou bastante curioso, gosto muito de aprender coisas novas,
                 quando terminei a faculdade, em 2017, não me interessei em seguir
                 carreira como desenvolvedor, pois já trabalhava com meus pais.
-                Me interessei pelo desenvolvimento em 2020, quando comecei a
-                trabalhar remotamente, estou me especializando em aplicativos
-                Android e IOS, trabalhando hoje com ReactJS para web e
-                React Native para mobile.
+              </p>
+              <p>
+                Mas em 2020, graças a um amigo que sempre me insentivava, me chamou
+                para trabalhar com alguns freelancers, começei a estudar novamente e
+                vi que era aquilo que eu queria para minha vida, foi quando comecei
+                trabalhar remotamente, que tive o contato com novas tecnologias, foi
+                onde me incentivou ainda mais a estudar pretendo me especializar em
+                aplicativos Android e IOS.
               </p>
               <p>
                 Sou também um jovem aventureiro que ama a natureza, paisagem,
                 trilhas e linhas de códigos. Quando sobra um tempinho traço
                 rotas de viagens, faço roteiros e meto o pé na estrada. Estou
                 terminando um curso técnico de guia de turismo, Fiz alguns cursos
-                online, pequenos aplicativos e no que precisar aprendo rápido.
+                online, participei de vários projetos, tanto Web quanto Mobile, fiz
+                alguns aplicativos pessoais e no que precisar aprendo rápido.
+              </p>
+              <p>
+                As tecnologias que tenho mais experiência hoje é ReactJS para web e
+                React Native para mobile e Firebase como Back-End.
               </p>
 
             </div>
