@@ -2,25 +2,6 @@
 
 <p align="center">Site responsivo para mostrar um pouco sobre minhas experiência</p>
 
-<h1 align="center">
-Web
-  <img
-    alt="Web"
-    src="/src/assets/screenshots/web.gif"
-  />
-  </h1>
-  <h1 align="center">
-  Mobile
-  </h1>
-  <h1 align="center">
-  <img
-    alt="Mobile"
-    src="/src/assets/screenshots/mobile.gif"
-    height=400
-    width=200
-  />
-</h1>
-
 # Tabela de conteúdos
 
 <!--ts-->
@@ -37,10 +18,7 @@ Web
 - [Styled-Components](https://styled-components.com/)
 - [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
 - [Material-UI](https://material-ui.com/pt/)
-- [Axios](https://github.com/axios/axios) 
-- [Open Weather Map - api](https://openweathermap.org/api)
-- [React Google Maps - api](https://www.npmjs.com/package/@react-google-maps/api)
-- [Use Places Autocomplete](https://www.npmjs.com/package/use-places-autocomplete)
+
 
 ### Como usar
 
