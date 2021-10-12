@@ -8,6 +8,7 @@ import VsCode from './img/VsCode.png'
 import Vuejs from './img/Vuejs.png'
 import Php from './img/php.png'
 import Mysql from './img/mysql.png'
+import Typescript from './img/typescript.png'
 import Postgresql from './img/postgresql.png'
 import Java from './img/java.png'
 import Firebase from './img/Firebase.png'
@@ -34,6 +35,9 @@ const SskData = [
   },
   {
     src: Js,
+  },
+  {
+    src: Typescript
   },
   {
     src: React,
