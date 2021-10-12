@@ -20,22 +20,22 @@ const Nav = () => {
               <NavLink activeClassName="active" to="/" />
             </li>
             <li>
-              <a href="#About">Sobre</a>
+              <a href="#About" onClick={Navfunc}>Sobre</a>
             </li>
             <li>
-              <a href="#ShortProjects">Projetos</a>
+              <a href="#ShortProjects" onClick={Navfunc}>Projetos</a>
             </li>
             <li>
-              <a href="#ShortSkill">Habilidades</a>
+              <a href="#ShortSkill" onClick={Navfunc}>Habilidades</a>
             </li>
             <li>
-              <a href="#ShortService">Serviços</a>
+              <a href="#ShortService" onClick={Navfunc}>Serviços</a>
             </li>
             <li>
-              <a href="#Subscribe">Contato</a>
+              <a href="#Subscribe" onClick={Navfunc}>Contato</a>
             </li>
             <li>
-              <a href="#Footer">Redes Sociais</a>
+              <a href="#Footer" onClick={Navfunc}>Redes Sociais</a>
             </li>
             <li>
               <Mode />

@@ -31,15 +31,15 @@ const ShortSkill = () => {
           <div id="SkillContentWrappper">
             <div id="Bests">
               <SingleShortSkill src={ReactNative} />
-              <text>ReactJS</text>
+              <h2>ReactJS</h2>
             </div>
             <div id="Bests">
               <SingleShortSkill src={Firebase} />
-              <text>Firebase</text>
+              <h2>Firebase</h2>
             </div>
             <div id="Bests">
               <SingleShortSkill src={ReactNative} />
-              <text>React Native</text>
+              <h2>React Native</h2>
             </div>
           </div>
         </div>

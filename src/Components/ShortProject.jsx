@@ -25,8 +25,27 @@ const useStyles = makeStyles(theme => ({
     width: '80%',
     height: '80%',
     backgroundColor: theme.palette.background.paper,
-    padding: 30
-  }
+    padding: 30,    
+    [theme.breakpoints.down('sm')]: {
+      height: '70%',
+    },
+  },
+  imgWeb: {
+    width: '80%',
+    height: '80%',
+    [theme.breakpoints.down('sm')]: {
+      width: '100%',
+      height: '30%',
+    }
+  },
+  imgCell: {
+    width: 300, 
+    height: '100%',
+    [theme.breakpoints.down('sm')]: {
+      width: '60%',
+      height: '50%',
+    }
+  },
 }));
 
 const ShortProject = () => {
@@ -86,12 +105,12 @@ const ShortProject = () => {
         </div>
         <Modal open={open} onClose={handleClose}>
           <div style={modalStyle} className={classes.paper}>
-            <h2 style={{ color: '#000' }}>{selected.title}</h2>
+            <h2 style={{ color: '#000', textAlign: 'center' }}>{selected.title}</h2>
             <p style={{ textAlign: 'center', paddingBottom: 20, paddingTop: 10, color: '#000' }}> {selected.descMore} </p>
             {selected.gifWeb ?
-              (<img style={{ width: '80%', height: '80%' }} src={selected.gifWeb} alt="Error" />)
+              (<img className={classes.imgWeb} src={selected.gifWeb} alt="Error" />)
               :
-              (<img style={{ width: 300, height: '100%' }} src={selected.gifCell} alt="Error" />)}
+              (<img className={classes.imgCell} src={selected.gifCell} alt="Error" />)}
             {selected.link &&
               <a href={selected.link} target="_blank" rel="noopener noreferrer">
                 <Link
