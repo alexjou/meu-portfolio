@@ -17,17 +17,16 @@
 - [ReactJs](https://pt-br.reactjs.org/)
 - [Styled-Components](https://styled-components.com/)
 - [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
-- [Material-UI](https://material-ui.com/pt/)
 
 
 ### Como usar
 
 ```bash
 # Clone o repositório
-$ git clone https://github.com/alexjou/climao
+$ git clone https://github.com/alexjou/meu-portfolio
 
 # Entre na pasta
-$ cd climao
+$ cd meu-portfolio
 
 # Instale as dependencias
 $ yarn install
