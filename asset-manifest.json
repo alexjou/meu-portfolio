@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/meu-portfolio/static/css/main.cebf1231.chunk.css",
-    "main.js": "/meu-portfolio/static/js/main.e2a224de.chunk.js",
-    "main.js.map": "/meu-portfolio/static/js/main.e2a224de.chunk.js.map",
+    "main.js": "/meu-portfolio/static/js/main.58a310f5.chunk.js",
+    "main.js.map": "/meu-portfolio/static/js/main.58a310f5.chunk.js.map",
     "runtime-main.js": "/meu-portfolio/static/js/runtime-main.5e47a919.js",
     "runtime-main.js.map": "/meu-portfolio/static/js/runtime-main.5e47a919.js.map",
     "static/css/2.ae9e5f60.chunk.css": "/meu-portfolio/static/css/2.ae9e5f60.chunk.css",
@@ -45,8 +45,18 @@
     "static/media/do2mepro.5f2be3d3.jpg": "/meu-portfolio/static/media/do2mepro.5f2be3d3.jpg",
     "static/media/doclist.f453c279.gif": "/meu-portfolio/static/media/doclist.f453c279.gif",
     "static/media/doclist.f4fcfb17.jpg": "/meu-portfolio/static/media/doclist.f4fcfb17.jpg",
+    "static/media/flatmatch.79accd2f.gif": "/meu-portfolio/static/media/flatmatch.79accd2f.gif",
+    "static/media/flatmatch.81d4bc5a.jpg": "/meu-portfolio/static/media/flatmatch.81d4bc5a.jpg",
+    "static/media/flix.24b03f61.gif": "/meu-portfolio/static/media/flix.24b03f61.gif",
+    "static/media/flix.584a959b.jpg": "/meu-portfolio/static/media/flix.584a959b.jpg",
     "static/media/full.4f80926a.png": "/meu-portfolio/static/media/full.4f80926a.png",
+    "static/media/gbarbosa.03d2e35e.gif": "/meu-portfolio/static/media/gbarbosa.03d2e35e.gif",
+    "static/media/gbarbosa.7bd84942.jpg": "/meu-portfolio/static/media/gbarbosa.7bd84942.jpg",
     "static/media/gitlab.bdcff436.png": "/meu-portfolio/static/media/gitlab.bdcff436.png",
+    "static/media/guiavet.404ff0dc.png": "/meu-portfolio/static/media/guiavet.404ff0dc.png",
+    "static/media/guiavet.40a2b710.gif": "/meu-portfolio/static/media/guiavet.40a2b710.gif",
+    "static/media/ioasys.d4283786.jpg": "/meu-portfolio/static/media/ioasys.d4283786.jpg",
+    "static/media/ioasys.ebdad741.gif": "/meu-portfolio/static/media/ioasys.ebdad741.gif",
     "static/media/ionic.646bc1e0.png": "/meu-portfolio/static/media/ionic.646bc1e0.png",
     "static/media/java.5d5cffa0.png": "/meu-portfolio/static/media/java.5d5cffa0.png",
     "static/media/kakarecoWeb.f418f547.png": "/meu-portfolio/static/media/kakarecoWeb.f418f547.png",
@@ -54,13 +64,25 @@
     "static/media/me.188eb9f1.jpeg": "/meu-portfolio/static/media/me.188eb9f1.jpeg",
     "static/media/meudindin.cd757d42.gif": "/meu-portfolio/static/media/meudindin.cd757d42.gif",
     "static/media/meudindin.da95becc.jpg": "/meu-portfolio/static/media/meudindin.da95becc.jpg",
+    "static/media/monitor.32adbe0a.gif": "/meu-portfolio/static/media/monitor.32adbe0a.gif",
+    "static/media/monitor.bcb6b5b1.png": "/meu-portfolio/static/media/monitor.bcb6b5b1.png",
     "static/media/mysql.203227b7.png": "/meu-portfolio/static/media/mysql.203227b7.png",
+    "static/media/netcos.940229ae.gif": "/meu-portfolio/static/media/netcos.940229ae.gif",
+    "static/media/netcos.e6a453b7.png": "/meu-portfolio/static/media/netcos.e6a453b7.png",
     "static/media/php.4ba17fd0.png": "/meu-portfolio/static/media/php.4ba17fd0.png",
     "static/media/postgresql.41d30ac9.png": "/meu-portfolio/static/media/postgresql.41d30ac9.png",
     "static/media/rails.098cc1b5.png": "/meu-portfolio/static/media/rails.098cc1b5.png",
+    "static/media/search.900a90b2.gif": "/meu-portfolio/static/media/search.900a90b2.gif",
+    "static/media/search.f5101424.png": "/meu-portfolio/static/media/search.f5101424.png",
+    "static/media/surfmappers.2676804c.gif": "/meu-portfolio/static/media/surfmappers.2676804c.gif",
+    "static/media/surfmappers.83762cb7.jpg": "/meu-portfolio/static/media/surfmappers.83762cb7.jpg",
+    "static/media/tinnova.411ff716.jpg": "/meu-portfolio/static/media/tinnova.411ff716.jpg",
+    "static/media/tinnova.c2ce63ea.gif": "/meu-portfolio/static/media/tinnova.c2ce63ea.gif",
     "static/media/turismo.150d378d.jpg": "/meu-portfolio/static/media/turismo.150d378d.jpg",
     "static/media/turismo.77658b38.gif": "/meu-portfolio/static/media/turismo.77658b38.gif",
     "static/media/typescript.9e56eac8.png": "/meu-portfolio/static/media/typescript.9e56eac8.png",
+    "static/media/vguard.a8925246.png": "/meu-portfolio/static/media/vguard.a8925246.png",
+    "static/media/vguard.e02f9210.gif": "/meu-portfolio/static/media/vguard.e02f9210.gif",
     "static/media/web.9d41d560.gif": "/meu-portfolio/static/media/web.9d41d560.gif"
   },
   "entrypoints": [
@@ -68,6 +90,6 @@
     "static/css/2.ae9e5f60.chunk.css",
     "static/js/2.02fd937c.chunk.js",
     "static/css/main.cebf1231.chunk.css",
-    "static/js/main.e2a224de.chunk.js"
+    "static/js/main.58a310f5.chunk.js"
   ]
 }
