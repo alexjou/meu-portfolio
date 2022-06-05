@@ -38,10 +38,10 @@ const useStyles = makeStyles(theme => ({
     }
   },
   imgCell: {
-    width: '20%',
+    width: '15%',
     height: '70%',
     [theme.breakpoints.down('sm')]: {
-      width: '50%',
+      width: '65%',
       }
   },
 }));
