@@ -1,4 +1,4 @@
-import Portfolio from "./img/Portfolio.jpg";
+import Portfolio from "./img/Portfolio.png";
 import MeuDinDin from "./img/meudindin.jpg";
 import MeuDinDinGif from "./img/meudindin.gif";
 

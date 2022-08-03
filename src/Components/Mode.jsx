@@ -9,16 +9,16 @@ const Mode = () => {
   const Dark = () => {
     document.querySelector('html').style.background = '#0D1117'
     document.querySelector('body').style.background = '#0D1117'
-    document.querySelector('html').style.color = ' white '
-    document.querySelector('body').style.color = ' white '
+    document.querySelector('html').style.color = '#fff'
+    document.querySelector('body').style.color = '#fff'
     setMode(!mode)
     settext(!text)
   }
   const Light = () => {
-    document.querySelector('html').style.background = ' #fff '
-    document.querySelector('body').style.background = ' #fff '
-    document.querySelector('html').style.color = ' #000 '
-    document.querySelector('body').style.color = ' #000 '
+    document.querySelector('html').style.background = '#fff'
+    document.querySelector('body').style.background = '#fff'
+    document.querySelector('html').style.color = '#000'
+    document.querySelector('body').style.color = '#000'
     setMode(!mode)
     settext(!text)
   }
@@ -26,7 +26,7 @@ const Mode = () => {
     <>
       <section id="Mode">
         <Button
-          onClick={mode ? Light : Dark}
+          onClick={mode ? Dark : Light}
           variant="contained"
           color="default"
         >

@@ -11,19 +11,15 @@ const App = () => {
     if (event.key === 'Enter' && event.ctrlKey === true) {
       document.querySelector('html').style.background = '#0D1117'
       document.querySelector('body').style.background = '#0D1117'
-      document.querySelector(
-        '.custom-shape-divider-top-1610786056',
-      ).style.display = 'none'
-      document.querySelector('html').style.color = ' white '
-      document.querySelector('body').style.color = ' white '
+      document.querySelector('html').style.color = '#fff'
+      document.querySelector('body').style.color = '#fff'
+      document.querySelector('.custom-shape-divider-top-1610786056',).style.display = 'none'
     } else if (event.key === 'E') {
-      document.querySelector('html').style.background = ' #fff '
-      document.querySelector('body').style.background = ' #fff '
-      document.querySelector('html').style.color = ' #000 '
-      document.querySelector('body').style.color = ' #000 '
-      document.querySelector(
-        '.custom-shape-divider-top-1610786056',
-      ).style.display = 'block'
+      document.querySelector('html').style.background = '#fff'
+      document.querySelector('body').style.background = '#fff'
+      document.querySelector('html').style.color = '#000'
+      document.querySelector('body').style.color = '#000'
+      document.querySelector('.custom-shape-divider-top-1610786056',).style.display = 'block'
     }
   })
   return (

@@ -17,7 +17,7 @@ const ShortAbout = () => {
                 carreira como desenvolvedor, pois já trabalhava com meus pais.
               </p>
               <p>
-                Mas em 2020, graças a um amigo que sempre me insentivava, me chamou
+                Mas em 2019, graças a um amigo que sempre me incentivava, me chamou
                 para trabalhar com alguns freelancers, começei a estudar novamente e
                 vi que era aquilo que eu queria para minha vida, foi quando comecei
                 trabalhar remotamente, que tive o contato com novas tecnologias, foi

@@ -7,6 +7,10 @@ const Loader = () => {
     setTimeout(() => {
       document.querySelector('#Loader').style.transform = 'translateX(120%)'
       disableScroll.off()
+      document.querySelector('html').style.background = '#0D1117'
+      document.querySelector('body').style.background = '#0D1117'
+      document.querySelector('html').style.color = '#fff'
+      document.querySelector('body').style.color = '#fff'
     })
   })
   disableScroll.on()
