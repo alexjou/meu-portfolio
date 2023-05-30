@@ -21,7 +21,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/%C3%A1lex-joubert-5451b215b/"
+                    href="https://www.linkedin.com/in/alex-jou/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
